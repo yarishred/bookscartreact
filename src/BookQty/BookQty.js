@@ -15,6 +15,9 @@ export const BookQty = ({ setBooks, index, quantity }) => {
   };
 
   const decrementQtyHandler = (idx) => {
+    if(qty <= 0){
+      return
+    }
     setQty(qty - 1);
     setBooks((prevBooks) =>
       prevBooks.map((book) => {

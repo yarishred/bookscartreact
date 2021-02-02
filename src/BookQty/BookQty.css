@@ -1,0 +1,22 @@
+.bookQty{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    margin: 6rem 0;
+}
+
+.bookQty button{
+    display: block;
+    padding: 5px 10px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 2rem;
+}
+
+button:hover{
+    color: #333;
+}
+
